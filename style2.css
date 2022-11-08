@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  width: 100%;
+  min-height: 100%;
+  padding: 5%;
+  background-image: linear-gradient(rgba(0,8,51,0,9),rgba(0,8,51,0,9)),url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar{
+  width: 100%;
+  max-width: 700%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+
+}
+.search-bar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color:#cac7ff;
+}
+::placeholder{
+  color: #cac7ff; 
+}
+
+.search-bar button img{
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #58629b;
+  cursor: pointer;
+}
+body {
+  font-size: 120%;
+  background: #F8F8FF;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
